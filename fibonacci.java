@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class fibonacci {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-
+        System.out.println("Enter number : ");
         int num = input.nextInt();
         int [] fib = new int[num];
 
